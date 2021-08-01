@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.top{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://i2.wp.com/www.eastmojo.com/wp-content/uploads/2021/06/pexels-dennis-magati-862848-1.jpg?fit=1200%2C675&ssl=1);
+    background-size:cover;
+    background-position: center center;
+    /*display: flex;*/
+}
+.logo{
+    color:white;
+    font: size 35px;
+    letter-spacing:1px;
+    cursor: pointer;
+}
+span{
+    color: orange;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right:8%;
+}
+ul li{
+    display: inline-block;
+    padding: 10px 30px;
+}
+ul li a{
+    color:white;
+    text-decoration: none;
+}
+ul li a:hover{
+    color:rgb(34, 10, 247);
+}
+.button{
+    background-color:rgb(247, 4, 4);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding:10px 25px;
+    border-radius: 30px;
+    transition: transform .6s;
+    
+}
+.button:hover{
+    transform: scale(1.1);
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+}
+h1{
+    color:white;
+    margin: 20px 0 20px;
+    font: size 70px;
+}
+h3{
+    color:white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color:rgb(241, 210, 210);
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+h2{
+    color:rgb(6, 1, 27);
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.form form{
+    width:400px;
+    max-width: 100%;
+    position: relative;
+}
+.form form input:first-child{
+    width:100%;
+    display: inline-block;
+    padding:14px 130px 14px 15px;
+    border: 2px solid rebeccapurple;
+    border-radius: 30px;
+}
+.form form input:last-child{
+    position:absolute;
+    display: inline;
+    border: none;
+    border-radius:30px;
+    padding:10px 30px;
+    background-color:green;
+    color:white;
+    top:6px;
+    right: 6px;
+}
+.share{
+    /*background-color:rgb(51, 255, 0);*/
+    padding: 15px 15px 15px 15px;
+    width: 400px;
+}
+
+
+
